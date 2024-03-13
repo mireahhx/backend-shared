@@ -18,4 +18,6 @@ namespace Shared.Results {
         public ResultType? Result { get; set; }
         public string? Error { get; set; }
     }
+
+    public class BasicApiResult : ApiResult<object> { }
 }

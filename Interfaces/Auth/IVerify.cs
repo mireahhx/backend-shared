@@ -4,6 +4,6 @@
     }
 
     public class IVerifyResponse {
-        public uint Id { get; set; }
+        public ITokenPayload TokenPayload { get; set; }
     }
 }
